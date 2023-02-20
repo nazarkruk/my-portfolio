@@ -37,7 +37,7 @@ function Projects() {
   return (
     <Layout>
       <Helmet>
-        <title>Portfolios - Chester React Personal Portfolio Template</title>
+        <title>Projects </title>
         <meta
           name="description"
           content="Chester React Personal Portfolio Template Portfolios Page"
@@ -46,7 +46,7 @@ function Projects() {
       <Suspense fallback={<Spinner />}>
         <div className="mi-about mi-section mi-padding-top mi-padding-bottom">
           <div className="container">
-            <SectionTitle title="Portfolios" />
+            <SectionTitle title="Projects" />
             {<ProjectsView portfolios={currentPortfolios} />}
             {!(projects.length > portfoliosPerPage) ? null : (
               <Pagination
