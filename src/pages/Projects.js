@@ -3,12 +3,12 @@ import React, { Suspense, useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import Layout from "../components/Layout";
 import Pagination from "../components/Pagination";
-import PortfoliosView from "../components/PortfoliosView";
+import ProjectsView from "../components/ProjectsView";
 import SectionTitle from "../components/SectionTitle";
 import Spinner from "../components/Spinner";
 
 function Projects() {
-  const [portfolios, setPortfoios] = useState([]);
+  const [projects, setProjects] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [portfoliosPerPage] = useState(9);
 
@@ -24,7 +24,7 @@ function Projects() {
 
   const indexOfLastPortfolios = currentPage * portfoliosPerPage;
   const indexOfFirstPortfolios = indexOfLastPortfolios - portfoliosPerPage;
-  const currentPortfolios = portfolios.slice(
+  const currentPortfolios = projects.slice(
     indexOfFirstPortfolios,
     indexOfLastPortfolios
   );
@@ -47,12 +47,12 @@ function Projects() {
         <div className="mi-about mi-section mi-padding-top mi-padding-bottom">
           <div className="container">
             <SectionTitle title="Portfolios" />
-            {<PortfoliosView portfolios={currentPortfolios} />}
-            {!(portfolios.length > portfoliosPerPage) ? null : (
+            {<ProjectsView portfolios={currentPortfolios} />}
+            {!(projects.length > portfoliosPerPage) ? null : (
               <Pagination
                 className="mt-50"
                 itemsPerPage={portfoliosPerPage}
-                totalItems={portfolios.length}
+                totalItems={projects.length}
                 paginate={paginate}
                 currentPage={currentPage}
               />
