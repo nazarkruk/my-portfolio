@@ -3,7 +3,7 @@ import React, { Suspense, useEffect, useState } from "react";
 import * as Icon from "react-feather";
 import { Helmet } from "react-helmet";
 import Layout from "../components/Layout";
-import SectionTitle from "../components/SectionTitle";
+import Sectiontitle from "../components/Sectiontitle";
 import Spinner from "../components/Spinner";
 
 function Contact() {
@@ -79,7 +79,7 @@ function Contact() {
       <Suspense fallback={<Spinner />}>
         <div className="mi-contact-area mi-section mi-padding-top mi-padding-bottom">
           <div className="container">
-            <SectionTitle title="Contact Me" />
+            <Sectiontitle title="Contact Me" />
             <div className="row">
               <div className="col-lg-6">
                 <div className="mi-contact-formwrapper">

@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet";
 import ProgressiveImage from "react-progressive-image";
 import Slider from "react-slick";
 import Layout from "../components/Layout";
-import SectionTitle from "../components/SectionTitle";
+import Sectiontitle from "../components/Sectiontitle";
 import Service from "../components/Service";
 import Spinner from "../components/Spinner";
 import Testimonial from "../components/Testimonial";
@@ -67,7 +67,7 @@ function About() {
       <Suspense fallback={<Spinner />}>
         <div className="mi-about-area mi-section mi-padding-top">
           <div className="container">
-            <SectionTitle title="About Me" />
+            <Sectiontitle title="About Me" />
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="mi-about-image">
@@ -154,7 +154,7 @@ function About() {
         </div>
         <div className="mi-service-area mi-section mi-padding-top">
           <div className="container">
-            <SectionTitle title="Services" />
+            <Sectiontitle title="Services" />
             <div className="mi-service-wrapper">
               <div className="row mt-30-reverse">
                 {services.map((service) => (
@@ -171,7 +171,7 @@ function About() {
         </div>
         <div className="mi-review-area mi-section mi-padding-top mi-padding-bottom">
           <div className="container">
-            <SectionTitle title="Reviews" />
+            <Sectiontitle title="Reviews" />
             <div className="row justify-content-center">
               <div className="col-12">
                 <Slider className="mi-testimonial-slider" {...sliderSettings}>

@@ -56,11 +56,15 @@ function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/projects">
-              <span>Projects</span>
+            <NavLink to="/portfolios">
+              <span>Portfolios</span>
             </NavLink>
           </li>
-
+          <li>
+            <NavLink to="/blogs">
+              <span>Blogs</span>
+            </NavLink>
+          </li>
           <li>
             <NavLink to="/contact">
               <span>Contact</span>
@@ -73,9 +77,9 @@ function Header() {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://nazarkruk.com"
+              href="https://nuclearthemes.com"
             >
-              Nazar Kruk
+              NuclearThemes
             </a>
           </b>
         </p>
