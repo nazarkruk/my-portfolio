@@ -1,7 +1,7 @@
 import React from "react";
 import Portfolio from '../components/Portfolio';
 
-function PortfoliosView({ portfolios }) {
+function ProjectsView({ portfolios }) {
   return (
     <div className="row mt-30-reverse">
       {portfolios.map(portfolio => (
@@ -13,4 +13,4 @@ function PortfoliosView({ portfolios }) {
   );
 }
 
-export default PortfoliosView;
+export default ProjectsView;

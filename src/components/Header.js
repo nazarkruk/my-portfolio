@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import LineIcon from "react-lineicons";
 import ProgressiveImage from "react-progressive-image";
 import { Link, NavLink } from "react-router-dom";
+import BackgroundLine from "./BackgroundLine";
 
 function Header() {
   const [information, setInformation] = useState("");
@@ -79,7 +80,7 @@ function Header() {
               target="_blank"
               href="https://nuclearthemes.com"
             >
-              NuclearThemes
+              Nazar Kruk
             </a>
           </b>
         </p>
