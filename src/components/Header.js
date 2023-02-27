@@ -28,6 +28,7 @@ function Header() {
           <LineIcon name="close" />
         )}
       </button>
+
       <div className="mi-header-inner">
         <div className="mi-header-image">
           <Link to="/">
@@ -39,6 +40,17 @@ function Header() {
             </ProgressiveImage>
           </Link>
         </div>
+        <div
+          style={{
+            height: "150px",
+            backgroundColor: "#a3acc4",
+            width: "2px",
+            marginLeft: "auto",
+            marginRight: "auto",
+            marginTop: "40px",
+            marginBottom: "40px",
+          }}
+        ></div>
 
         <ul className="mi-header-menu">
           <li>
@@ -51,27 +63,42 @@ function Header() {
               <span>About</span>
             </NavLink>
           </li>
+
           <li>
             <NavLink to="/resume">
               <span>Resume</span>
             </NavLink>
           </li>
+
           <li>
             <NavLink to="/portfolios">
               <span>Portfolios</span>
             </NavLink>
           </li>
+
           <li>
             <NavLink to="/blogs">
               <span>Blogs</span>
             </NavLink>
           </li>
+
           <li>
             <NavLink to="/contact">
               <span>Contact</span>
             </NavLink>
           </li>
         </ul>
+        <div
+          style={{
+            height: "150px",
+            backgroundColor: "#a3acc4",
+            width: "2px",
+            marginLeft: "auto",
+            marginRight: "auto",
+            marginTop: "40px",
+            marginBottom: "40px",
+          }}
+        ></div>
         <p className="mi-header-copyright">
           &copy; {new Date().getFullYear()}{" "}
           <b>

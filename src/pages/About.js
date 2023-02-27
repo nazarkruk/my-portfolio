@@ -58,7 +58,7 @@ function About() {
   return (
     <Layout>
       <Helmet>
-        <title>About - Nazar Kruk Portfolio</title>
+        <title>About - Nazar Kruk Porfolio</title>
         <meta
           name="description"
           content="Chester React Personal Portfolio Template About Page"
