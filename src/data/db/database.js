@@ -19,7 +19,7 @@ const database = {
       behance: "",
       linkedin: "https://www.linkedin.com/in/nazar-kruk-soft",
       dribbble: "",
-      github: "https://github.com/nazarkruk/nazarkruk",
+      github: "https://github.com/nazarkruk",
     },
     brandImage: "/images/brand-image-b.png",
     aboutImage: "/images/about-image-lg_n.jpg",
