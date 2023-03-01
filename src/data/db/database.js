@@ -22,8 +22,8 @@ const database = {
       github: "https://github.com",
     },
     brandImage: "/images/brand-image-b.png",
-    aboutImage: "/images/about-image.jpg",
-    aboutImageLg: "/images/about-image-lg.jpg",
+    aboutImage: "/images/about-image-lg_n.jpg",
+    aboutImageLg: "/images/about-image-lg_n.jpg",
     cvfile: "/files/empty.pdf",
   },
   services: [
