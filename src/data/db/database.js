@@ -4,7 +4,7 @@ const database = {
   information: {
     name: "Nazar Kruk",
     aboutContent:
-      "I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.",
+      "I am highly efficient and reliable Software Engineer, who possesses a broad skill set for web and mobile applications development.",
     age: 24,
     phone: "",
     nationality: "American",
@@ -13,18 +13,18 @@ const database = {
     address: "121 King Street, Melbourne, Australia",
     freelanceStatus: "Available",
     socialLinks: {
-      facebook: "https://facebook.com",
-      twitter: "https://twitter.com",
+      facebook: "https://www.facebook.com/nazarkruk84/",
+      twitter: "",
       pinterest: "",
       behance: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/nazar-kruk-soft",
       dribbble: "",
-      github: "https://github.com",
+      github: "https://github.com/nazarkruk/nazarkruk",
     },
     brandImage: "/images/brand-image-b.png",
     aboutImage: "/images/about-image-lg_n.jpg",
     aboutImageLg: "/images/about-image-lg_n.jpg",
-    cvfile: "/files/empty.pdf",
+    cvfile: "/files/nazar-kruk-resume.pdf",
   },
   services: [
     {

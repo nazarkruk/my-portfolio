@@ -147,15 +147,16 @@
 // Light Mode
 .light-mode {
   background: rgba(#ffffff, 0.5);
-  position: fixed;
+  position: relative;
   z-index: 999;
   height: 40px;
   left: auto;
   right: 0;
-  top: 60px;
+  // top: 60px;
   padding: 0 10px;
   display: flex;
   align-items: center;
+  border-radius: 8px;
 
   .icon {
     display: inline-block;
