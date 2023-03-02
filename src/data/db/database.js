@@ -31,19 +31,19 @@ const database = {
       title: "Web Design",
       icon: "brush-alt",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.",
+        "I’m passionate about pixel-perfect, cutting-edge interfaces and intuitively implemented UX.",
     },
     {
       title: "Web Development",
       icon: "code",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.",
+        "I enjoy bringing ideas to life in the browser, and like to create something from scratch.",
     },
     {
       title: "Mobile Application",
       icon: "mobile",
       details:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.",
+        "I build single-code base mobile apps with high performance and feel of a native application.",
     },
   ],
   reviews: [

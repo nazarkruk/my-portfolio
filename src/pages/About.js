@@ -98,11 +98,18 @@ function About() {
                     I am <span className="color-theme">{information.name}</span>
                   </h3>
                   <p>
-                    I am a frontend web developer. I can provide clean code and
-                    pixel perfect design. I also make website more & more
-                    interactive with web animations.
+                    Fullstack developer based in New York, who enjoy building
+                    innovative and creative solutions for clients and friends
+                    whether it is a website, app, or business solution.
                   </p>
-                  <ul>
+                  <p>
+                    <p>
+                      I like to utilize my skills to support others needs and
+                      dreams, that is why volunteering is taking important part
+                      of my life.
+                    </p>
+                  </p>
+                  {/* <ul>
                     {!information.name ? null : (
                       <li>
                         <b>Full Name</b> {information.name}
@@ -143,7 +150,7 @@ function About() {
                         <b>Freelance</b> {information.freelanceStatus}
                       </li>
                     )}
-                  </ul>
+                  </ul> */}
                   <a href={information.cvfile} className="mi-button">
                     Download CV
                   </a>
@@ -169,7 +176,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="mi-review-area mi-section mi-padding-top mi-padding-bottom">
+        {/* <div className="mi-review-area mi-section mi-padding-top mi-padding-bottom">
           <div className="container">
             <Sectiontitle title="Reviews" />
             <div className="row justify-content-center">
@@ -182,7 +189,7 @@ function About() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </Suspense>
     </Layout>
   );
