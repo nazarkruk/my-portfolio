@@ -85,19 +85,19 @@ const database = {
     },
     {
       title: "Javascript",
-      value: 70,
+      value: 85,
     },
     {
-      title: "jQuery",
-      value: 85,
+      title: "Node.js",
+      value: 75,
     },
     {
       title: "ReactJS",
       value: 80,
     },
     {
-      title: "Photoshop",
-      value: 65,
+      title: "MongoDB",
+      value: 90,
     },
   ],
   portfolios: [
@@ -287,53 +287,61 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
+        year: "June 2019 - Present",
+        position: "Software Engineer",
+        company: "HPH Hospitality",
         details:
-          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.",
+          "Developing set of React, React Native applications including: Food Ordering App, Order Management Dashboard, Kitchen Display App. Integrating third-party delivery service APIs to complete applications workflow cycle. ",
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
+        year: "Feb 2018 - May 2019",
+        position: "Software Quality Assurance Engineer",
+        company: "Premium Soft Labs",
         details:
-          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.",
+          "Built automation framework and test scripts using Selenium Web-Driver and Python for multiple platforms and browsers testing.  Developed automation test cases using Python and Selenium Web Driver, executed these test scripts and logged defects in JIRA.",
       },
       {
         id: 3,
-        year: "2014 - 1016",
-        position: "UI/UX Designer",
-        company: "Example Company",
+        year: "Sep 2013 - Feb 2018",
+        position: "QA Associate",
+        company: "PEG",
         details:
-          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.",
+          "Performed quality control checks, identify and track source documentation errors and non-conformances with requirements. Assisted in the preparation of reports for submission to regulatory authorities. ",
+      },
+      {
+        id: 4,
+        year: "Jul 2005 - Jun 2013",
+        position: "IT Support Specialist",
+        company: "Photo Mania",
+        details:
+          "Set up secure WIFI, LAN and VoIP networks at remote locations, leading client/server configuration and performance-tuning of crucial infrastructure to ensure seamless business operations.",
       },
     ],
     educationExperience: [
       {
         id: 1,
-        year: "2018 - 2019",
-        graduation: "Master of Science",
-        university: "Abc University",
+        year: "2022 - 2023",
+        graduation: "Full Stack Web and Mobile Development Bootcamp",
+        university: "Nucamp",
         details:
-          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.",
+          "Server-side Development with NodeJS, Express and MongoDB. User authentication and fundamentals of cybersecurity.",
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        graduation: "Bachelor of Science",
-        university: "Abc University",
+        year: "2004- 2005",
+        graduation: "Master of Science",
+        university: "Lviv Polytechnic National University",
         details:
-          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.",
+          "Institute of Computer Technologies, Automation and Metrology. Department of Specialized Computer Systems.",
       },
       {
         id: 3,
-        year: "2015 - 2016",
-        graduation: "Higher Schoold Graduation",
-        university: "Abc College",
+        year: "2001 - 2004",
+        graduation: "Bachelor of Science",
+        university: "Lviv Polytechnic National University",
         details:
-          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.",
+          "Institute of Computer Technologies, Automation and Metrology. Department of Specialized Computer Systems.",
       },
     ],
   },
