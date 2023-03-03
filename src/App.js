@@ -8,7 +8,6 @@ import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Notfound from "./pages/Notfound";
-import Portfolios from "./pages/Portfolios";
 import Resumes from "./pages/Resumes";
 
 function App() {
@@ -45,9 +44,8 @@ function App() {
         <Route path="/" index element={<Home lightMode={lightMode} />} />
         <Route path="about" element={<About />} />
         <Route path="resume" element={<Resumes />} />
-        <Route path="portfolios" element={<Portfolios />} />
-        <Route path="blogs" element={<Blogs />} />
-        <Route path="blogs/:id/:title" element={<BlogDetails />} />
+        <Route path="projects" element={<Blogs />} />
+        <Route path="projects/:id/:title" element={<BlogDetails />} />
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<Notfound />} />
       </Routes>

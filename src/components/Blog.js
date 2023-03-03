@@ -25,10 +25,10 @@ function Blog(props) {
             {(src) => <img src={src} alt={title} />}
           </ProgressiveImage>
         </Link>
-        <div className="mi-blog-date">
+        {/* <div className="mi-blog-date">
           <span className="date">{createDay}</span>
           <span className="month">{getShortMonth(createMonth)}</span>
-        </div>
+        </div> */}
       </div>
       <div className="mi-blog-content">
         <h5>

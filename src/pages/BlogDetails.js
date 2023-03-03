@@ -44,14 +44,14 @@ function BlogDetails(props) {
         <div className="mi-blog-details mi-section mi-padding-top mi-padding-bottom">
           <div className="container">
             <Markdown>{content}</Markdown>
-            <Suspense fallback={<h1>loading...</h1>}>
+            {/* <Suspense fallback={<h1>loading...</h1>}>
               <div className="mi-blog-details-comments mt-30">
                 <Disqus.DiscussionEmbed
                   shortname={disqusShortname}
                   config={disqusConfig}
                 />
               </div>
-            </Suspense>
+            </Suspense> */}
           </div>
         </div>
       </Suspense>

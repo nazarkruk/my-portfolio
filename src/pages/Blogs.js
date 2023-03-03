@@ -43,7 +43,7 @@ function Blogs() {
       <Suspense fallback={<Spinner />}>
         <div className="mi-about mi-section mi-padding-top mi-padding-bottom">
           <div className="container">
-            <Sectiontitle title="Recent Blogs" />
+            <Sectiontitle title="Recent Projects" />
             <BlogsView blogs={currentPosts} />
             {!(posts.length > postsPerPage) ? null : (
               <Pagination

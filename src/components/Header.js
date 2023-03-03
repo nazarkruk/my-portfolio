@@ -87,14 +87,8 @@ function Header() {
           </li>
 
           <li>
-            <NavLink to="/portfolios">
-              <span>Portfolios</span>
-            </NavLink>
-          </li>
-
-          <li>
-            <NavLink to="/blogs">
-              <span>Blogs</span>
+            <NavLink to="/projects">
+              <span>Projects</span>
             </NavLink>
           </li>
 
