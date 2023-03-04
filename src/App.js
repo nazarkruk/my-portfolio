@@ -13,23 +13,23 @@ import Resumes from "./pages/Resumes";
 function App() {
   const [lightMode, setLightMode] = useState(false); // Made it true if you want to load your site light mode primary
 
-  // lightMode
-  //   ? document.body.classList.add("light")
-  //   : document.body.classList.remove("light");
+  lightMode
+    ? document.body.classList.add("light")
+    : document.body.classList.remove("light");
 
-  // const handleMode = () => {
-  //   if (!lightMode) {
-  //     setLightMode(true);
-  //     document.body.classList.add("light");
-  //   } else {
-  //     setLightMode(false);
-  //     document.body.classList.remove("light");
-  //   }
-  // };
+  const handleMode = () => {
+    if (!lightMode) {
+      setLightMode(true);
+      document.body.classList.add("light");
+    } else {
+      setLightMode(false);
+      document.body.classList.remove("light");
+    }
+  };
 
   return (
     <BrowserRouter>
-      {/* <div className="light-mode">
+      <div className="light-mode">
         <span className="icon">
           <Icon.Sun />
         </span>
@@ -39,7 +39,7 @@ function App() {
           }
           onClick={() => handleMode()}
         ></button>
-      </div> */}
+      </div>
       <Routes>
         <Route path="/" index element={<Home lightMode={lightMode} />} />
         <Route path="about" element={<About />} />

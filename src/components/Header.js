@@ -19,21 +19,21 @@ function Header() {
     });
   }, []);
 
-  const [lightMode, setLightMode] = useState(false); // Made it true if you want to load your site light mode primary
+  // const [lightMode, setLightMode] = useState(false); // Made it true if you want to load your site light mode primary
 
-  lightMode
-    ? document.body.classList.add("light")
-    : document.body.classList.remove("light");
+  // lightMode
+  //   ? document.body.classList.add("light")
+  //   : document.body.classList.remove("light");
 
-  const handleMode = () => {
-    if (!lightMode) {
-      setLightMode(true);
-      document.body.classList.add("light");
-    } else {
-      setLightMode(false);
-      document.body.classList.remove("light");
-    }
-  };
+  // const handleMode = () => {
+  //   if (!lightMode) {
+  //     setLightMode(true);
+  //     document.body.classList.add("light");
+  //   } else {
+  //     setLightMode(false);
+  //     document.body.classList.remove("light");
+  //   }
+  // };
 
   return (
     <nav className={navigationToggler ? "mi-header is-visible" : "mi-header"}>
