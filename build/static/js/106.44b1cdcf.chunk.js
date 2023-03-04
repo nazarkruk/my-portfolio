@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[106],{5106:function(e,t,o){e.exports=o.p+"static/media/time-to-use-latest-technology-for-creating-a-website.2b8a1fe1bf042c6aa951.md"}}]);

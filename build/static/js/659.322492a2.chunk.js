@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[659],{7659:function(p,e,t){p.exports=t.p+"static/media/lappart-reservation-app.7173ff6879696ef8292c.md"}}]);

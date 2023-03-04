@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[529],{1529:function(t,a,o){t.exports=o.p+"static/media/web-automation-with-python-language.ae6692345a7cd5c4abd3.md"}}]);

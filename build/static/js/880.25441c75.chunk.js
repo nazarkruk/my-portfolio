@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[880],{3880:function(p,a,e){p.exports=e.p+"static/media/popular-javascript-library-in-2020.5c7e8b1b07183ae2ff49.md"}}]);

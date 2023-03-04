@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[578],{8578:function(e,c,f){e.exports=f.p+"static/media/kredens-gift-ecommerce-app.abf2c7ddd6af8fc57abd.md"}}]);

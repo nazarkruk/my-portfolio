@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[763],{1763:function(e,i,s){e.exports=s.p+"static/media/trending-designs-in-2020.ba99803d5499cd1d5703.md"}}]);

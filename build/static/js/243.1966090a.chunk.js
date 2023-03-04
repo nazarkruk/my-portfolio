@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[243],{3243:function(e,o,p){e.exports=p.p+"static/media/st-george-church-app.ea7127adddc19643040f.md"}}]);
