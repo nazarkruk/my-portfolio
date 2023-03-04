@@ -402,9 +402,9 @@ const database = {
     },
   ],
   contactInfo: {
-    phoneNumbers: ["+012-3456-7891", "+012-3456-7892"],
-    emailAddress: ["admin.sitename@example.com", "info.sitename@example.com"],
-    address: "121 King Street, Melbourne, Victoria 3000, Australia",
+    phoneNumbers: ["+1 929-293-5412"],
+    emailAddress: ["nazarkruk@icloud.com"],
+    address: "Yonkers, New York 10701",
   },
 };
 

@@ -109,7 +109,7 @@ function Header() {
             marginBottom: "40px",
           }}
         ></div>
-        <div className="light-mode">
+        {/* <div className="light-mode">
           <span className="icon">
             <Icon.Sun />
           </span>
@@ -119,7 +119,7 @@ function Header() {
             }
             onClick={() => handleMode()}
           ></button>
-        </div>
+        </div> */}
         <p className="mi-header-copyright">
           &copy; {new Date().getFullYear()}{" "}
           <b>

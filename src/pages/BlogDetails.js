@@ -24,20 +24,20 @@ function BlogDetails(props) {
       .catch((err) => console.log(err));
   });
 
-  const disqusShortname = "chester-react"; //found in your Disqus.com dashboard
-  const disqusConfig = {
-    url: "https://tf-react-chester.now.sh/", //Homepage link of this site.
-    identifier: blogId,
-    title: blogFile,
-  };
+  // const disqusShortname = "chester-react"; //found in your Disqus.com dashboard
+  // const disqusConfig = {
+  //   url: "https://tf-react-chester.now.sh/", //Homepage link of this site.
+  //   identifier: blogId,
+  //   title: blogFile,
+  // };
 
   return (
     <Layout>
       <Helmet>
-        <title>Blog Details - Chester React Personal Portfolio Template</title>
+        <title>Blog Details - Nazar Kruk React Personal Portfolio</title>
         <meta
           name="description"
-          content="Chester React Personal Portfolio Template Blog Details Page"
+          content="Nazar Kruk Web Developer Portfolio Template Blog Details Page"
         />
       </Helmet>
       <Suspense fallback={<Spinner />}>

@@ -70,10 +70,10 @@ function Contact() {
   return (
     <Layout>
       <Helmet>
-        <title>Contact - Chester React Personal Portfolio Template</title>
+        <title>Contact - Nazar Kruk React Personal Portfolio</title>
         <meta
           name="description"
-          content="Chester React Personal Portfolio Template Contact Page"
+          content="Nazar Kruk Web Developer Portfolio Contact Page"
         />
       </Helmet>
       <Suspense fallback={<Spinner />}>
@@ -134,7 +134,7 @@ function Contact() {
                         name="message"
                         id="contact-form-message"
                         cols="30"
-                        rows="6"
+                        rows="4"
                         value={formdata.message}
                       ></textarea>
                     </div>
